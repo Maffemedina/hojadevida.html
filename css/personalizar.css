@@ -1,0 +1,211 @@
+body{
+    margin:0;/*quite las margenes*/
+    padding:0;/*espaciados internos*/
+    background:#FFFBFA ;
+}
+.name{
+    width: 100%;/*abarca el 100% de la pagina*/
+    height: 300px;/*esto son medidas relativas*/
+    background:#49C6E5 ;/*color a la franja*/
+    transform: skewY(-5deg);
+}
+.name .content{
+    width: 50%;
+    height: 50%;/*50 de 300 pixeles*/
+    position:absolute;/*me permite mover mi contenido de forma mas sencilla*/
+    left: 20%;
+}
+.name .content .parrafo1{
+    color:white ;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    font-weight: bulder;/*negrita*/
+    transform: skewY(5deg);/*etiquetas*/
+    margin-bottom: 0;
+}
+.name .content .parrafo2{
+    color:white ;
+    font-family: 'Redressed', cursive;
+    font-size: 25px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.name .imagen{
+    position: absolute;
+    top: 18%;
+    right: 15%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+
+}
+.name .imagen img{
+    width: 180px;
+    height: 190px;
+}
+.info{
+    width:90%;
+    height: auto;
+    background:#00BD9D;
+    margin:5% auto;
+    padding: 20px ;
+    border-radius: 20px;
+}
+.info .titulo1seccion {
+    color: #FFFBFA;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px white dashed;
+
+}
+.info .nomyapell {
+    color: #FFFBFA;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+.info .infnomyapell{
+    color: #050505;
+    font-family: 'Redressed', cursive;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+
+}
+.info .cedula {
+    color: #FFFBFA;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+.info .infcedula{
+    color: #050505;
+    font-family: 'Redressed', cursive;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+
+}
+.info .tel {
+    color: #FFFBFA;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+.info .inftel{
+    color: #050505;
+    font-family: 'Redressed', cursive;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+
+}
+.info .direccion {
+    color: #FFFBFA;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+.info .infdireccion{
+    color: #050505;
+    font-family: 'Redressed', cursive;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+
+}
+.info .email {
+    color: #FFFBFA;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+.info .infemail{
+    color: #050505;
+    font-family: 'Redressed', cursive;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+
+}
+.info .fnacimiento {
+    color: #FFFBFA;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+.info .inffnacimiento{
+    color: #050505;
+    font-family: 'Redressed', cursive;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+
+}
+.info2{
+    width:90%;
+    height: auto;
+    background:#49C6E5;
+    margin:5% auto;
+    padding: 20px ;
+    border-radius: 20px;
+}
+.info2 .titulo2seccion {
+    color: #FFFBFA;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px white dashed;
+
+}
+.info2 .descripcion{
+    color: #050505;
+    font-family: 'Redressed', cursive;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+
+}
+.info3{
+    width:90%;
+    height: auto;
+    background:#8BD7D2;
+    margin:5% auto;
+    padding: 20px ;
+    border-radius: 20px;
+}
+.info3 .titulo3seccion {
+    color: #FFFBFA;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px white dashed;
+
+}
+.info3 .campos{
+    color: #050505;
+    font-family: 'Redressed', cursive;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+
+}
